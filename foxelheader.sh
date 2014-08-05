@@ -1,7 +1,7 @@
 #!/bin/bash
 
 if [ $# -eq 0 -o $# -lt 4 ] ; then
-  echo "Usage: $(basename $0) <project> <years> <author> [<author> ...] <file>"
+  echo "Usage: $(basename $0) <project> <years> <author> [<author> ...] <file> [<file> ...]"
   exit 1
 fi
 
